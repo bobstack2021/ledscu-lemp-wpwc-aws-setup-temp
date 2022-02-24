@@ -1,0 +1,21 @@
+# This is for installing VSCodium on Ubuntu 20.04 LTS
+# Video reference: https://youtu.be/sYOqCuhZVio
+# YouTube Channel: LearnLinuxTv 
+# Title of video: "Awesome Linux Tools - VSCodium"
+# Can see home page for "how-to" but did it a different way in this tutorial.
+# For other way, go to https://vscodium.com/install
+# To install with deb version (best way):
+# Go to https://github.com/VSCodium/vscodium/releases
+# Can search for the Arch User Repository as well to check and make sure it's there:
+# Go to: https://aur.archlinux.org/packages/vscodium/
+# See Package details
+# Install the Deb Version "amd64.deb" version, which on 02/23/2022 is:
+# "codium_1.64.2-1644538525_amd64.deb"
+# Make sure to "Save File" instead of saving it in browser.
+# Open the terminal 
+# Navigate to the "Downloads directory"
+# Need to run: 
+
+cd Downloads/
+ls
+sudo dpkg -i codium_1.64.2-1644538525_amd64.deb
